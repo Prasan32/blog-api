@@ -3,6 +3,7 @@ const router=express.Router()
 const authController=require('../controllers/authController')
 
 //authentications register routes here
+//check 
 
 router.post('/register',authController.saveUser)
 
